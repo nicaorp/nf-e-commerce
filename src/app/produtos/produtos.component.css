@@ -1,0 +1,87 @@
+:root {
+    --first-color: rgb(189, 44, 44);
+    --second-color: rgb(194, 194, 194);
+}
+
+.produtos-section {
+    padding: 10px;
+    gap: 10px;
+    width: fit-content;
+    display: flex;
+    align-content: center;
+    flex-flow: row wrap;
+    justify-content: space-evenly;
+}
+
+.card-produtos {
+    margin: 10px auto;
+    padding: 10px;
+    border-radius: 10px;
+    flex: 0 1 240px;
+    height: 320px;
+    background-color: rgba(241, 241, 241, 0.247);
+    transition: .4s ease;
+}
+
+.card-produtos:hover {
+    box-shadow: 1px 1px 3px var(--second-color);
+    transform: scale(1.1);
+}
+
+
+.card-produtos .link-produto {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    cursor: pointer;
+    gap: 5px;
+    text-decoration: none;
+}
+
+.card-produtos .link-produto:visited .nome-produto {
+    color: black;
+}
+
+.link-produto .preco-produto {
+    color: blue;
+    font-weight: 800;
+    font-size: 18px;
+    margin-bottom: 0;
+}
+
+.link-produto .botao-produto {
+    outline: none;
+    border: none;
+    background-color: var(--first-color);
+    color: white;
+    font-size: 16px;
+    border-radius: 15px;
+    padding: 5px 10px;
+    transition: .7s ease;   
+    cursor: pointer;
+}
+
+.link-produto .botao-produto:hover {
+background-color: rgb(219, 94, 94); 
+transform: scale(110%); 
+}
+
+
+
+.link-produto .descricao-produto {
+    font-weight: 800;
+    color: black;
+    margin-bottom: 0;
+}
+
+.link-produto .nome-produto {
+     color: black;
+     margin-bottom: 0;
+}
+
+
+.card-produtos img {
+    width: 70%;
+    height: 70%;
+}
+

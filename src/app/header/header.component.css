@@ -1,0 +1,91 @@
+:root {
+    --first-color: rgb(189, 44, 44);
+    
+    --second-color: rgb(255, 255, 255);
+    --background-color: rgb(254, 255, 221);
+}
+
+header {
+    
+    left: 0;
+    top: 0;
+}
+
+.main-header { 
+    width: 100%;
+    gap: 10px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    flex-wrap: wrap;
+    background-color: var(--first-color);
+    padding: 10px 0 ;
+}
+
+
+
+.main-header .main-title { 
+    
+    cursor: pointer;
+    color: white;
+    font-size: 30px;
+
+}
+
+.main-header .title-box {
+    transition: .4s ease;
+}
+
+.main-header .title-box:hover { 
+    transform: translateX(7px);
+}
+
+.main-header .main-title span {
+    margin: 10px;
+}
+
+.main-header .main-title .span-1 {
+    font-size: 35px;
+  
+}
+
+.header-right-side {
+    display: flex;
+    flex-direction: column;
+    min-width: 40%;
+    min-height: 80px;
+}
+
+.menu-list {
+    display: flex;
+    justify-content: space-around;
+    list-style: none;
+    color: white;
+    padding: 10px 0;
+    
+}
+
+.menu-list li {
+    font-size: 25px;
+    padding-right: 40px;
+    cursor: pointer;
+    transition: .3s ease;  
+}
+
+.menu-list li:hover {
+    transform: translateX(8px);
+}
+
+.menu-list a {
+    text-decoration: none;
+}
+
+.menu-list .carrinho-badge {
+    color: white;
+}
+
+.menu-list a:visited {
+    color: white;
+ }
+

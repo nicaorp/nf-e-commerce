@@ -1,0 +1,24 @@
+form input {
+    width: 80%;
+    height: 25px;
+    text-decoration: none;
+    border: none;
+    border-radius: 7px;
+}
+
+form input:focus {
+    border: none;
+    box-shadow: none;
+    outline: none;
+    font-size: 20px;
+    
+}
+
+form button {
+    height: 26px;
+    margin-left: 5px;
+    width: 8%;
+    border-radius: 7px;
+    border: none;
+    color:var(--first-color);
+}

@@ -1,0 +1,24 @@
+<header>
+    <div class="main-header">
+    <div class="title-box" >
+        <h1 routerLink="/produtos/" class="main-title">
+            <span  class="span-1">TAKE YOUR</span><span class="span-2">Jordan</span>
+        </h1>
+    </div>
+        <div class="header-right-side">
+            <nav>
+            <ul class="menu-list">
+                    <li>
+                        <a routerLink="carrinho">
+                            <i class="fa-solid fa-cart-shopping"></i>
+                            <span class="carrinho-badge"> {{ carrinhoService.obtemCarrinho().length }} </span>
+                        </a>
+                    </li>
+                    <li><a routerLink="/produtos/" >PRODUTOS</a></li>
+                    <li><a routerLink="/contato/">CONTATO</a></li>
+                </ul>
+            </nav>
+           <app-barra-pesquisa></app-barra-pesquisa>
+        </div>
+    </div>
+</header>

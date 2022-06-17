@@ -1,0 +1,59 @@
+.contact {
+    color: grey;
+    font-size: 30px;
+    margin-left: 28px;
+}
+
+.contact__container {
+    display: flex;
+    justify-content: space-around;
+    align-items: flex-start;
+    min-height: 60vh;
+}
+
+.contact-form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: flex-start;
+    height: 70vh;    
+    width: 40%;
+}
+
+.contact-form input,
+.contact-form button,
+.contact__container textarea {
+    margin: 10px;
+    width: 90%;
+    height: 30px;
+    border: 1px solid rgb(189,44,44);
+}
+
+.contact-form input:focus,
+.contact-form button:focus,
+.contact__container textarea:focus {
+    border: 1px solid black;
+    outline: none;
+}
+
+
+
+address {
+    height: 50vh;
+    width: 40vw;
+}
+
+.contact__container address iframe {
+    height: 90%;
+    width: 100%;
+}
+
+.contact-form input.valid,
+.contact-form button.valid,
+.contact__container textarea.valid {
+    border: 2px solid rgb(92, 236, 92);
+}
+
+button {
+    cursor: pointer;
+}

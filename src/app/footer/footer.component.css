@@ -1,0 +1,49 @@
+:root {
+    --first-color: rgb(189, 44, 44);
+    
+    --second-color: rgb(255, 255, 255);
+    --background-color: rgb(254, 255, 221);
+}
+
+
+.footer {
+    position: relative;
+    color: white;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    
+    background-color: var(--first-color)
+}
+
+address h2 {
+    text-align: center;
+}
+
+address ul li {
+    margin-top: 5px;
+    list-style: none;
+}
+
+address ul li i{
+    padding-right: 5px;
+}
+
+.footer__container {
+    display: flex;
+    margin-top: 5px;
+    gap: 5px;
+    width: 100%;
+    align-items: center;
+    justify-content: space-around;    
+}
+
+section .footer__title {
+    text-align: center;
+}
+
+.footer_copyright {
+    text-align: center;
+    padding-bottom: 5px;
+}
+

@@ -5,11 +5,14 @@
     --background-color: rgb(254, 255, 221);
 }
 
+
 header {
     
     left: 0;
     top: 0;
+    width: 100%;
 }
+
 
 .main-header { 
     width: 100%;
@@ -63,12 +66,13 @@ header {
     list-style: none;
     color: white;
     padding: 10px 0;
+    width: 100%;
     
 }
 
 .menu-list li {
     font-size: 25px;
-    padding-right: 40px;
+    padding-right: 15px;
     cursor: pointer;
     transition: .3s ease;  
 }

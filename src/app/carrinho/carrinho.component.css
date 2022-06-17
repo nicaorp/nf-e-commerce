@@ -78,3 +78,25 @@ input {
     
     font-size: 20px;
 }
+
+@media (max-width: 730px) {
+    li {
+        font-size: 20px;
+        display: flex;
+        flex-direction: column;
+        box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+        border-radius: 8px;
+        overflow: hidden;
+        margin: 10px 0;
+        height: 100%;
+        align-items: center;
+        justify-content: space-between;
+    }
+
+    .cart-title div,
+    .cart-title div ul {
+        height: 100%;
+    }
+
+    
+}
